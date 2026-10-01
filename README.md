@@ -1,16 +1,24 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/AnWeber/vscode-httpyac/master/icon.png" alt="HttpYac Logo" />
+<img src="https://raw.githubusercontent.com/ZeroWiggliness/vscode-httpyac/main/icon.png" alt="HttpYac Logo" />
 </p>
 
-# httpYac - Yet another Client
+# httpYac (ZW edition) - Yet another Client
+
+This edition is entirely thanks to the fantastic work of the original author, [Andreas Weber](https://github.com/AnWeber), and his [vscode-httpyac](https://github.com/AnWeber/vscode-httpyac) extension. This fork adds features that can be contributed back to the original project, but with more active maintenance.
+
+For httpyac questions and documentation, see the [httpyac (ZW edition) wiki](https://github.com/ZeroWiggliness/httpyac/wiki).
+
+### ZW edition updates
+
+- Uses [httpyac (ZW edition)](https://github.com/ZeroWiggliness/httpyac) (`@zerowiggliness/httpyac`), including `QUERY` request method support.
 
 > Quickly and easily send REST, SOAP, GraphQL or gRPC requests directly in Editor
 
 <p align="center">
-<a href="https://httpyac.github.io/">
+<a href="https://github.com/ZeroWiggliness/httpyac">
 <img src="https://httpyac.github.io/httpyac_site.png" alt="HttpYac" />
 </a>
-<img src="https://raw.githubusercontent.com/AnWeber/vscode-httpyac/master/examples/oauth.gif" alt="HttpYac Extension" />
+<img src="https://raw.githubusercontent.com/ZeroWiggliness/vscode-httpyac/main/examples/oauth.gif" alt="HttpYac Extension" />
 </p>
 
 ## Example
@@ -23,11 +31,11 @@ GET https://httpbin.org/basic-auth/{{user}}/{{password}}
 Authorization: Basic {{user}}{{password}}
 ```
 
-more [examples](https://httpyac.github.io/guide/examples) and [guide](https://httpyac.github.io/guide/)
+more examples and guides in the [httpyac (ZW edition) wiki](https://github.com/ZeroWiggliness/httpyac/wiki)
 
 ## Commands
 
-![Commands](https://raw.githubusercontent.com/AnWeber/vscode-httpyac/master/examples/commands.png)
+![Commands](https://raw.githubusercontent.com/ZeroWiggliness/vscode-httpyac/main/examples/commands.png)
 
 | Name                    | Description                                                                                     |
 | ----------------------- | ----------------------------------------------------------------------------------------------- |

@@ -1,0 +1,19 @@
+{
+  "provider": "github",
+  "release": {
+    "targetBranch": "main",
+    "prerelease": false,
+    "maxReleases": 10,
+    "maxCommits": 100,
+    "includeChores": false
+  },
+  "version": "v6.16.7",
+  "versionPrefix": "v",
+  "manifests": [
+    {
+      "path": ".",
+      "type": "node",
+      "version": "6.16.7"
+    }
+  ]
+}

@@ -1,19 +1,19 @@
 {
   "name": "vscode-httpyac",
-  "displayName": "httpYac - Rest Client",
+  "displayName": "httpYac (ZW edition) - Rest Client",
   "license": "MIT",
-  "publisher": "anweber",
+  "publisher": "zerowiggliness",
   "description": "Quickly and easily send REST, Soap, GraphQL, GRPC, MQTT, RabbitMQ and WebSocket requests directly within Visual Studio Code",
   "version": "6.16.7",
-  "homepage": "https://github.com/AnWeber/vscode-httpyac",
+  "homepage": "https://github.com/ZeroWiggliness/vscode-httpyac",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AnWeber/vscode-httpyac"
+    "url": "https://github.com/ZeroWiggliness/vscode-httpyac"
   },
   "bugs": {
-    "url": "https://github.com/AnWeber/vscode-httpyac/issues"
+    "url": "https://github.com/ZeroWiggliness/vscode-httpyac/issues"
   },
-  "qna": "https://github.com/AnWeber/vscode-httpyac/discussions",
+  "qna": "https://github.com/ZeroWiggliness/httpyac/wiki",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.91.0"
@@ -1556,9 +1556,9 @@
   "dependencies": {
     "filesize": "^10.1.6",
     "httpsnippet": "^3.0.1",
-    "httpyac": "^6.16.7",
+    "httpyac": "npm:@zerowiggliness/httpyac@^6.16.8",
     "lodash": "^4.17.21",
     "mime-types": "^2.1.35",
-    "uuid": "11.1.0"
+    "uuid": "11.1.1"
   }
 }
