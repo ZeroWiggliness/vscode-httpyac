@@ -3,7 +3,7 @@
   "displayName": "httpYac (ZW edition) - Rest Client",
   "license": "MIT",
   "publisher": "zerowiggliness",
-  "description": "Quickly and easily send REST, Soap, GraphQL, GRPC, MQTT, RabbitMQ and WebSocket requests directly within Visual Studio Code",
+  "description": "Quickly and easily send REST, Soap, GraphQL, GRPC, Kafka, MQTT, RabbitMQ and WebSocket requests directly within Visual Studio Code",
   "version": "6.16.7",
   "homepage": "https://github.com/ZeroWiggliness/vscode-httpyac",
   "repository": {
@@ -31,6 +31,7 @@
     "WebSocket",
     "RabbitMQ",
     "AMQP",
+    "Kafka",
     "EventSource",
     "MQTT",
     "Intellij Http Client",
@@ -76,7 +77,7 @@
           "http",
           "rest"
         ],
-        "firstLine": "^\\s*(AMQP|SSE|EVENTSOURCE|WSS|WS|WEBSOCKET|GRPC|GET|POST|PUT|DELETE|PATCH|HEAD|OPTIONS|CONNECT|TRACE|PROPFIND|PROPPATCH|MKCOL|COPY|MOVE|LOCK|UNLOCK|CHECKOUT|CHECKIN|REPORT|MERGE|MKACTIVITY|MKWORKSPACE|VERSION-CONTROL|BASELINE-CONTROL|MKCALENDAR|ACL|SEARCH|GRAPHQL)\\s+[^\\s(]*\\s*?$",
+        "firstLine": "^\\s*(KAFKA|AMQP|SSE|EVENTSOURCE|WSS|WS|WEBSOCKET|GRPC|GET|POST|PUT|DELETE|PATCH|HEAD|OPTIONS|CONNECT|TRACE|PROPFIND|PROPPATCH|MKCOL|COPY|MOVE|LOCK|UNLOCK|CHECKOUT|CHECKIN|REPORT|MERGE|MKACTIVITY|MKWORKSPACE|VERSION-CONTROL|BASELINE-CONTROL|MKCALENDAR|ACL|SEARCH|GRAPHQL|QUERY)\\s+[^\\s(]*\\s*?$",
         "configuration": "./language-configuration.json"
       }
     ],
@@ -1556,7 +1557,7 @@
   "dependencies": {
     "filesize": "^10.1.6",
     "httpsnippet": "^3.0.1",
-    "httpyac": "npm:@zerowiggliness/httpyac@^6.16.8",
+    "httpyac": "npm:@zerowiggliness/httpyac@^6.17.0",
     "lodash": "^4.17.21",
     "mime-types": "^2.1.35",
     "uuid": "11.1.1"

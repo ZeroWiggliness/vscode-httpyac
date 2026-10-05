@@ -10,7 +10,7 @@ For httpyac questions and documentation, see the [httpyac (ZW edition) wiki](htt
 
 ### ZW edition updates
 
-- Uses [httpyac (ZW edition)](https://github.com/ZeroWiggliness/httpyac) (`@zerowiggliness/httpyac`), including `QUERY` request method support.
+- Uses [httpyac (ZW edition)](https://github.com/ZeroWiggliness/httpyac) (`@zerowiggliness/httpyac`), including the `QUERY` request method and Kafka support. See the [Kafka guide](https://github.com/ZeroWiggliness/httpyac/blob/main/docs/kafka.md) for usage details.
 
 > Quickly and easily send REST, SOAP, GraphQL or gRPC requests directly in Editor
 
