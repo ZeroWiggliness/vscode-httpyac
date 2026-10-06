@@ -4,7 +4,7 @@
   "license": "MIT",
   "publisher": "zerowiggliness",
   "description": "Quickly and easily send REST, Soap, GraphQL, GRPC, Kafka, MQTT, RabbitMQ and WebSocket requests directly within Visual Studio Code",
-  "version": "6.16.7",
+  "version": "6.16.8",
   "homepage": "https://github.com/ZeroWiggliness/vscode-httpyac",
   "repository": {
     "type": "git",
