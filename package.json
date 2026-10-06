@@ -1555,9 +1555,10 @@
     "typescript": "^5.6.3"
   },
   "dependencies": {
+    "@zerowiggliness/httpyac": "^6.18.0",
     "filesize": "^10.1.6",
     "httpsnippet": "^3.0.1",
-    "httpyac": "npm:@zerowiggliness/httpyac@^6.17.0",
+    "httpyac": "npm:@zerowiggliness/httpyac@^6.18.0",
     "lodash": "^4.17.21",
     "mime-types": "^2.1.35",
     "uuid": "11.1.1"

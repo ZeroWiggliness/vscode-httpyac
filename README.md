@@ -10,7 +10,7 @@ For httpyac questions and documentation, see the [httpyac (ZW edition) wiki](htt
 
 ### ZW edition updates
 
-- Uses [httpyac (ZW edition)](https://github.com/ZeroWiggliness/httpyac) (`@zerowiggliness/httpyac`), including the `QUERY` request method and Kafka support. See the [Kafka guide](https://github.com/ZeroWiggliness/httpyac/blob/main/docs/kafka.md) for usage details.
+- Uses [httpyac (ZW edition)](https://github.com/ZeroWiggliness/httpyac) (`@zerowiggliness/httpyac`), including the `QUERY` request method, Kafka support, and the `matchesFile` / `matchesJsonFile` assertions. See the [Kafka guide](https://github.com/ZeroWiggliness/httpyac/blob/main/docs/kafka.md) for usage details.
 
 > Quickly and easily send REST, SOAP, GraphQL or gRPC requests directly in Editor
 
@@ -100,12 +100,12 @@ keybindings are only active in files with language http
 
 #### httpYac Extension
 
-| Name                              | Description                                             | Default |
-| --------------------------------- | ------------------------------------------------------- | ------- |
-| `httpyac.showGutterIcon`          | show gutter icon to highlight request lines             | `true`  |
-| `httpyac.useMethodInSendCodeLens` | use request method in send code lens                    | `false` |
-| `httpyac.logLevel`                | log level of output channel                             | `warn`  |
-| `httpyac.maxHistoryItems`         | number of max history items                             | `50`    |
+| Name                              | Description                                 | Default |
+| --------------------------------- | ------------------------------------------- | ------- |
+| `httpyac.showGutterIcon`          | show gutter icon to highlight request lines | `true`  |
+| `httpyac.useMethodInSendCodeLens` | use request method in send code lens        | `false` |
+| `httpyac.logLevel`                | log level of output channel                 | `warn`  |
+| `httpyac.maxHistoryItems`         | number of max history items                 | `50`    |
 
 ## License
 
