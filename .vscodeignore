@@ -1,11 +1,13 @@
 .vscode/**
 .vscode-test/**
+node_modules/**
+!node_modules/@platformatic/wasm-utils/**
+!node_modules/@platformatic/dynamic-buffer/**
 .husky
 .github
 out/**
 src/**
 examples/**
-node_modules/**
 .gitignore
 .arp.config.json
 .yarnrc
