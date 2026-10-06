@@ -1511,7 +1511,7 @@
   "scripts": {
     "compile-web": "esbuild ./src/extension.ts --bundle --outfile=dist/browser.js --sourcemap --platform=browser --format=cjs --external:vscode",
     "compile": "npm run esbuild -- --minify",
-    "esbuild": "esbuild ./src/extension.ts --bundle --outdir=dist/ --sourcemap --platform=node --external:vscode --format=cjs",
+    "esbuild": "esbuild ./src/extension.ts --bundle --outdir=dist/ --sourcemap --platform=node --external:vscode --external:@platformatic/kafka --format=cjs",
     "eslint": "eslint src --ext ts",
     "format": "prettier --write --parser typescript \"src/**/*.ts?(x)\"",
     "lint": "npm run format && npm run eslint && npm run lockfile-lint && tsc --noEmit",
