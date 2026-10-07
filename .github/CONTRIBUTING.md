@@ -4,18 +4,19 @@ From opening a bug report to creating a pull request: every contribution is appr
 
 ## Issues
 
-If you just want some help or a detail question, please post
-a question to [Discussions](https://github.com/AnWeber/vscode-httpyac/discussions/new). Questions
+If you just want some help or a detail question about httpyac, please check the
+[httpyac (ZW edition) wiki](https://github.com/ZeroWiggliness/httpyac/wiki). Questions
 that include an example and/or the full error message are more likely to receive responses.
 
-**If you have discovered a bug or have a feature suggestion, please [create an issue on GitHub](https://github.com/AnWeber/vscode-httpyac/issues/new).**
-**Please note that httpyac provides a [plugin interface.](https://httpyac.github.io/plugins/#getting-started)**
+**If you have discovered a bug or have a feature suggestion, please [create an issue on GitHub](https://github.com/ZeroWiggliness/vscode-httpyac/issues/new).**
+**Please note that httpyac provides a [plugin interface.](https://github.com/ZeroWiggliness/httpyac/wiki)**
 
 ## Submitting Changes
 
 After getting some feedback, push to your fork and submit a pull request. We may suggest some changes or improvements or alternatives, but for small changes your pull request should be accepted quickly. 
 If there is no issue, an explanatory comment would be helpful.
-The pull request executes [Github action `build`](https://github.com/anweber/vscode-httpyac/blob/main/.github/workflows/main.yml), which must pass successfully.
+Pull request titles must follow [Conventional Commits](https://www.conventionalcommits.org/) (e.g. `feat: ...`, `fix: ...`), which is checked by the `PR Lint` workflow.
+The pull request executes [Github action `Continuous Integration`](https://github.com/ZeroWiggliness/vscode-httpyac/blob/main/.github/workflows/ci.yml), which must pass successfully.
 
 ## Development Setup
 

@@ -1,22 +1,22 @@
 {
   "name": "vscode-httpyac",
-  "displayName": "httpYac - Rest Client",
+  "displayName": "httpYac (ZW edition) - Rest Client",
   "license": "MIT",
-  "publisher": "anweber",
-  "description": "Quickly and easily send REST, Soap, GraphQL, GRPC, MQTT, RabbitMQ and WebSocket requests directly within Visual Studio Code",
-  "version": "6.16.7",
-  "homepage": "https://github.com/AnWeber/vscode-httpyac",
+  "publisher": "zerowiggliness",
+  "description": "Quickly and easily send REST, Soap, GraphQL, GRPC, Kafka, MQTT, RabbitMQ and WebSocket requests directly within Visual Studio Code",
+  "version": "6.16.8",
+  "homepage": "https://github.com/ZeroWiggliness/vscode-httpyac",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AnWeber/vscode-httpyac"
+    "url": "https://github.com/ZeroWiggliness/vscode-httpyac"
   },
   "bugs": {
-    "url": "https://github.com/AnWeber/vscode-httpyac/issues"
+    "url": "https://github.com/ZeroWiggliness/vscode-httpyac/issues"
   },
-  "qna": "https://github.com/AnWeber/vscode-httpyac/discussions",
+  "qna": "https://github.com/ZeroWiggliness/httpyac/wiki",
   "icon": "icon.png",
   "engines": {
-    "vscode": "^1.91.0"
+    "vscode": "^1.123.0"
   },
   "categories": [
     "Other",
@@ -31,6 +31,7 @@
     "WebSocket",
     "RabbitMQ",
     "AMQP",
+    "Kafka",
     "EventSource",
     "MQTT",
     "Intellij Http Client",
@@ -76,7 +77,7 @@
           "http",
           "rest"
         ],
-        "firstLine": "^\\s*(AMQP|SSE|EVENTSOURCE|WSS|WS|WEBSOCKET|GRPC|GET|POST|PUT|DELETE|PATCH|HEAD|OPTIONS|CONNECT|TRACE|PROPFIND|PROPPATCH|MKCOL|COPY|MOVE|LOCK|UNLOCK|CHECKOUT|CHECKIN|REPORT|MERGE|MKACTIVITY|MKWORKSPACE|VERSION-CONTROL|BASELINE-CONTROL|MKCALENDAR|ACL|SEARCH|GRAPHQL)\\s+[^\\s(]*\\s*?$",
+        "firstLine": "^\\s*(KAFKA|AMQP|SSE|EVENTSOURCE|WSS|WS|WEBSOCKET|GRPC|GET|POST|PUT|DELETE|PATCH|HEAD|OPTIONS|CONNECT|TRACE|PROPFIND|PROPPATCH|MKCOL|COPY|MOVE|LOCK|UNLOCK|CHECKOUT|CHECKIN|REPORT|MERGE|MKACTIVITY|MKWORKSPACE|VERSION-CONTROL|BASELINE-CONTROL|MKCALENDAR|ACL|SEARCH|GRAPHQL|QUERY)\\s+[^\\s(]*\\s*?$",
         "configuration": "./language-configuration.json"
       }
     ],
@@ -1510,7 +1511,7 @@
   "scripts": {
     "compile-web": "esbuild ./src/extension.ts --bundle --outfile=dist/browser.js --sourcemap --platform=browser --format=cjs --external:vscode",
     "compile": "npm run esbuild -- --minify",
-    "esbuild": "esbuild ./src/extension.ts --bundle --outdir=dist/ --sourcemap --platform=node --external:vscode --format=cjs",
+    "esbuild": "esbuild ./src/extension.ts --bundle --outdir=dist/ --sourcemap --platform=node --external:vscode --external:@platformatic/kafka --format=cjs",
     "eslint": "eslint src --ext ts",
     "format": "prettier --write --parser typescript \"src/**/*.ts?(x)\"",
     "lint": "npm run format && npm run eslint && npm run lockfile-lint && tsc --noEmit",
@@ -1554,11 +1555,13 @@
     "typescript": "^5.6.3"
   },
   "dependencies": {
+    "@platformatic/kafka": "^2.13.0",
+    "@zerowiggliness/httpyac": "^6.18.0",
     "filesize": "^10.1.6",
     "httpsnippet": "^3.0.1",
-    "httpyac": "^6.16.7",
+    "httpyac": "npm:@zerowiggliness/httpyac@^6.18.0",
     "lodash": "^4.17.21",
     "mime-types": "^2.1.35",
-    "uuid": "11.1.0"
+    "uuid": "11.1.1"
   }
 }

@@ -135,7 +135,6 @@ export async function getEnvironmentConfig(fileName: httpyac.PathLike): Promise<
     environments: config.environmentVariables,
     log: {
       level: httpyac.LogLevel.trace, // let user decide on output channel
-      supportAnsiColors: false,
     },
     cookieJarEnabled: getValueOrUndefined(config.cookieJarEnabled),
     clientCertificates: getValueOrUndefined(config.clientCertificates),
