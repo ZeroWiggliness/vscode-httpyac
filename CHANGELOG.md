@@ -1,3 +1,11 @@
+## v6.18.0
+
+### Features
+* Change marketplace publish name ([#7](https://github.com/ZeroWiggliness/vscode-httpyac/issues/7)) ([081282d](https://github.com/ZeroWiggliness/vscode-httpyac/commit/081282db13d75ad47ca7d6c0c32f6b3e4554e522))
+
+---
+_Generated on 2026-10-07_
+
 ## v6.17.0
 
 ### Features
