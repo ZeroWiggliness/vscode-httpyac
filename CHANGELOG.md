@@ -1,3 +1,11 @@
+## v6.18.1
+
+### Bug Fixes
+* Latest VSCode update creates CJS issues when opening a file. ([#9](https://github.com/ZeroWiggliness/vscode-httpyac/issues/9)) ([13e7eae](https://github.com/ZeroWiggliness/vscode-httpyac/commit/13e7eae379afb4aa5a6c6a3811ab11b22cc628fd))
+
+---
+_Generated on 2026-10-15_
+
 ## v6.18.0
 
 ### Features
