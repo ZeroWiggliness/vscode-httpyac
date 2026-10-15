@@ -6,6 +6,8 @@
 
 This edition is entirely thanks to the fantastic work of the original author, [Andreas Weber](https://github.com/AnWeber), and his [vscode-httpyac](https://github.com/AnWeber/vscode-httpyac) extension. This fork adds features that can be contributed back to the original project, but with more active maintenance.
 
+For some reason VSCode Marketplace only gives me 429 errors. Vscode pluging can be found in the latest github release as a download. Or, better from the Open VSX Registry https://open-vsx.org/extension/zerowiggliness/vscode-httpyac-zw
+
 For httpyac questions and documentation, see the [httpyac (ZW edition) wiki](https://github.com/ZeroWiggliness/httpyac/wiki).
 
 ### ZW edition updates

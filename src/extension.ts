@@ -3,11 +3,13 @@ import { DocumentStore } from './documentStore';
 import { HttpYacExtensionApi } from './extensionApi';
 import { initIOProvider, StorageProvider } from './io';
 import * as provider from './provider';
+import { installCommonJsConfigLoaderCompatibility } from './plugin';
 import { ResponseStore } from './responseStore';
 import * as httpyac from 'httpyac';
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext): HttpYacExtensionApi {
+  installCommonJsConfigLoaderCompatibility();
   const storageProvider = new StorageProvider(context.globalStorageUri);
   const documentStore = new DocumentStore();
   const responseStore = new ResponseStore(storageProvider);
