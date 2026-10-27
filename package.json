@@ -1545,7 +1545,7 @@
     "@typescript-eslint/parser": "7.18.0",
     "esbuild": "^0.25.2",
     "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "husky": "^9.1.6",
