@@ -1552,7 +1552,7 @@
     "lint-staged": "^15.2.10",
     "lockfile-lint": "^4.14.0",
     "prettier": "^3.9.10",
-    "typescript": "^5.6.3"
+    "typescript": "^7.0.2"
   },
   "dependencies": {
     "@platformatic/kafka": "^2.14.0",
