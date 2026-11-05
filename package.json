@@ -1557,7 +1557,7 @@
   "dependencies": {
     "@platformatic/kafka": "^2.14.0",
     "@zerowiggliness/httpyac": "^6.18.0",
-    "filesize": "^10.1.6",
+    "filesize": "^11.0.29",
     "httpsnippet": "^3.0.1",
     "httpyac": "npm:@zerowiggliness/httpyac@^6.18.0",
     "lodash": "^4.17.21",
