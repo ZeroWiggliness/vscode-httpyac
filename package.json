@@ -1540,7 +1540,7 @@
     "@types/mime-types": "^2.1.4",
     "@types/node": "^22.5.0",
     "@types/uuid": "^10.0.0",
-    "@types/vscode": "1.144.0",
+    "@types/vscode": "1.145.0",
     "@typescript-eslint/eslint-plugin": "7.18.0",
     "@typescript-eslint/parser": "7.18.0",
     "esbuild": "^0.28.2",
@@ -1555,7 +1555,7 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
-    "@platformatic/kafka": "^2.14.0",
+    "@platformatic/kafka": "^2.15.0",
     "@zerowiggliness/httpyac": "^6.18.0",
     "filesize": "^10.1.6",
     "httpsnippet": "^3.0.1",
