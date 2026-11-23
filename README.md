@@ -109,6 +109,18 @@ keybindings are only active in files with language http
 | `httpyac.logLevel`                | log level of output channel                 | `warn`  |
 | `httpyac.maxHistoryItems`         | number of max history items                 | `50`    |
 
+## Updating the lockfile on Windows
+
+With Docker Desktop running Linux containers, run:
+
+```powershell
+.\windows-lockfile.ps1
+```
+
+This runs `npm install --package-lock-only --ignore-scripts` in `node:24`,
+updating `package-lock.json` without running lifecycle scripts or modifying local
+`node_modules`. Use `-NodeImage` to select a different Node image.
+
 ## License
 
 [MIT License](LICENSE)
