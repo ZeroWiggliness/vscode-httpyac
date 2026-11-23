@@ -74,7 +74,7 @@ export function initFileProvider(): void {
         return !!stats;
       }
       return false;
-    } catch (err) {
+    } catch {
       return false;
     }
   };

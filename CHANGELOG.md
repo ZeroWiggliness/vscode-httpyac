@@ -1,3 +1,10 @@
+## Unreleased
+
+### Maintenance
+* Apply the dependency updates from the eight open Dependabot PRs.
+* Migrate ESLint to flat configuration with compatibility support for the existing Node rules.
+* Include ES2022 library declarations for the existing `Array.at` and `WeakRef` usage.
+
 ## v6.18.1
 
 ### Bug Fixes

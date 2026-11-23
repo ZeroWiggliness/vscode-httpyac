@@ -1540,8 +1540,8 @@
     "@eslint/js": "^10.0.1",
     "@types/har-format": "1.2.16",
     "@types/lodash": "^4.17.27",
-    "@types/mime-types": "^2.1.4",
-    "@types/node": "^22.5.0",
+    "@types/mime-types": "^3.0.1",
+    "@types/node": "^26.6.6",
     "@types/vscode": "1.120.0",
     "@typescript-eslint/eslint-plugin": "8.74.0",
     "@typescript-eslint/parser": "8.74.0",
@@ -1549,10 +1549,10 @@
     "eslint": "^10.15.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-simple-import-sort": "^14.0.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.1",
-    "lockfile-lint": "^4.14.0",
+    "lockfile-lint": "^5.1.0",
     "prettier": "^3.10.1",
     "type-fest": "^2.12.2",
     "typescript": "^5.9.3"
@@ -1560,11 +1560,11 @@
   "dependencies": {
     "@platformatic/kafka": "^2.17.0",
     "@zerowiggliness/httpyac": "^6.18.1",
-    "filesize": "^10.1.6",
+    "filesize": "^11.0.29",
     "httpsnippet": "^3.0.1",
     "httpyac": "npm:@zerowiggliness/httpyac@^6.18.0",
     "lodash": "^4.17.21",
-    "mime-types": "^2.1.35",
+    "mime-types": "^3.0.2",
     "uuid": "14.0.3"
   }
 }
