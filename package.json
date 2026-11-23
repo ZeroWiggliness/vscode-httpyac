@@ -1541,7 +1541,7 @@
     "@types/har-format": "1.2.16",
     "@types/lodash": "^4.17.27",
     "@types/mime-types": "^2.1.4",
-    "@types/node": "^22.5.0",
+    "@types/node": "^26.6.6",
     "@types/vscode": "1.120.0",
     "@typescript-eslint/eslint-plugin": "8.74.0",
     "@typescript-eslint/parser": "8.74.0",
