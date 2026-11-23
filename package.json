@@ -1540,7 +1540,7 @@
     "@eslint/js": "^10.0.1",
     "@types/har-format": "1.2.16",
     "@types/lodash": "^4.17.27",
-    "@types/mime-types": "^2.1.4",
+    "@types/mime-types": "^3.0.1",
     "@types/node": "^22.5.0",
     "@types/vscode": "1.120.0",
     "@typescript-eslint/eslint-plugin": "8.74.0",
@@ -1564,7 +1564,7 @@
     "httpsnippet": "^3.0.1",
     "httpyac": "npm:@zerowiggliness/httpyac@^6.18.0",
     "lodash": "^4.17.21",
-    "mime-types": "^2.1.35",
+    "mime-types": "^3.0.2",
     "uuid": "14.0.3"
   }
 }
