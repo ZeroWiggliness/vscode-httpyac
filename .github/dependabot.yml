@@ -2,11 +2,16 @@ version: 2
 updates:
   - package-ecosystem: npm
     directory: "/"
+    open-pull-requests-limit: 15
     schedule:
       interval: weekly
     commit-message:
       prefix: chore
       include: scope
+    ignore:
+      # Keep VS Code types at or below the minimum supported engine version.
+      - dependency-name: "@types/vscode"
+        versions: [">=1.124.0"]
     groups:
       npm-minor-patch:
         update-types:
@@ -15,6 +20,7 @@ updates:
 
   - package-ecosystem: github-actions
     directory: "/"
+    open-pull-requests-limit: 15
     schedule:
       interval: weekly
     commit-message:
