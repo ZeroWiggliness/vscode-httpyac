@@ -1549,14 +1549,14 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "husky": "^9.1.7",
-    "lint-staged": "^17.6.0",
+    "lint-staged": "^17.6.1",
     "lockfile-lint": "^4.14.0",
-    "prettier": "^3.9.10",
+    "prettier": "^3.10.1",
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@platformatic/kafka": "^2.15.0",
-    "@zerowiggliness/httpyac": "^6.18.0",
+    "@platformatic/kafka": "^2.17.0",
+    "@zerowiggliness/httpyac": "^6.18.1",
     "filesize": "^10.1.6",
     "httpsnippet": "^3.0.1",
     "httpyac": "npm:@zerowiggliness/httpyac@^6.18.0",
