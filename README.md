@@ -130,6 +130,10 @@ updating `package-lock.json` without running lifecycle scripts or modifying loca
 The script fails if either the update or clean-install validation fails.
 Use `-NodeImage` to select a different Node image.
 
+Before running local lint commands or committing, run `npm ci` on Windows to
+synchronize local `node_modules` with the updated lockfile. The Docker helper
+does not install dependencies used by local Git hooks.
+
 ## License
 
 [MIT License](LICENSE)
