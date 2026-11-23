@@ -1541,7 +1541,7 @@
     "@types/node": "^22.5.0",
     "@types/uuid": "^11.0.0",
     "@types/vscode": "1.120.0",
-    "@typescript-eslint/eslint-plugin": "7.18.0",
+    "@typescript-eslint/eslint-plugin": "8.73.0",
     "@typescript-eslint/parser": "7.18.0",
     "esbuild": "^0.28.2",
     "eslint": "^8.57.1",
