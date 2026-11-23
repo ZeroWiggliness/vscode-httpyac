@@ -16,14 +16,15 @@ $dockerArgs = @(
   '--mount', "type=bind,source=$repoRoot,target=/workspace",
   '--tmpfs', '/workspace/node_modules:exec',
   '--workdir', '/workspace',
-  $NodeImage,
-  'npm',
-  'install',
-  '--package-lock-only',
-  '--ignore-scripts'
+  $NodeImage
 )
 
-& $docker.Source @dockerArgs
+& $docker.Source @dockerArgs npm install --package-lock-only --ignore-scripts
 if ($LASTEXITCODE -ne 0) {
   throw "Docker lockfile update failed with exit code $LASTEXITCODE."
+}
+
+& $docker.Source @dockerArgs npm ci --dry-run --ignore-scripts --no-audit --no-fund
+if ($LASTEXITCODE -ne 0) {
+  throw "Docker clean-install validation failed with exit code $LASTEXITCODE."
 }

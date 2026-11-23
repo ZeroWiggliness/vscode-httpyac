@@ -1,0 +1,16 @@
+const { fixupConfigRules } = require('@eslint/compat');
+const { FlatCompat } = require('@eslint/eslintrc');
+const js = require('@eslint/js');
+
+const compat = new FlatCompat({
+  baseDirectory: __dirname,
+  recommendedConfig: js.configs.recommended,
+});
+
+module.exports = [
+  { ignores: ['dist/**', 'out/**', '.tsupgrader/**'] },
+  ...fixupConfigRules(compat.extends('./.eslintrc.yml')).map(config => ({
+    ...config,
+    files: ['**/*.ts'],
+  })),
+];

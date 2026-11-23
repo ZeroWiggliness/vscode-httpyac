@@ -111,6 +111,13 @@ keybindings are only active in files with language http
 
 ## Updating the lockfile on Windows
 
+The lint setup uses ESLint 10's flat-config entry point with compatibility adapters
+for the existing rules in `.eslintrc.yml` and the Node plugin. UUID includes its
+own TypeScript declarations; a separate `@types/uuid` dependency is not needed.
+The development dependencies explicitly include `type-fest` for `httpsnippet`'s
+published declarations, and TypeScript uses ES2022 library declarations for the
+existing `Array.at` and `WeakRef` usage.
+
 With Docker Desktop running Linux containers, run:
 
 ```powershell
@@ -119,7 +126,9 @@ With Docker Desktop running Linux containers, run:
 
 This runs `npm install --package-lock-only --ignore-scripts` in `node:24`,
 updating `package-lock.json` without running lifecycle scripts or modifying local
-`node_modules`. Use `-NodeImage` to select a different Node image.
+`node_modules`, then checks it with `npm ci --dry-run` in a fresh container.
+The script fails if either the update or clean-install validation fails.
+Use `-NodeImage` to select a different Node image.
 
 ## License
 

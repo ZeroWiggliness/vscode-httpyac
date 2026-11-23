@@ -1,4 +1,3 @@
-/* eslint-disable no-invalid-this */
 import { io, utils } from 'httpyac';
 import { window } from 'vscode';
 
