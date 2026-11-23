@@ -1536,15 +1536,15 @@
   },
   "devDependencies": {
     "@eslint/compat": "^2.1.1",
+    "@eslint/eslintrc": "^3.3.7",
     "@eslint/js": "^10.0.1",
     "@types/har-format": "1.2.16",
     "@types/lodash": "^4.17.27",
     "@types/mime-types": "^3.0.1",
     "@types/node": "^26.6.6",
-    "@types/uuid": "^11.0.0",
     "@types/vscode": "1.120.0",
-    "@typescript-eslint/eslint-plugin": "8.73.0",
-    "@typescript-eslint/parser": "8.73.0",
+    "@typescript-eslint/eslint-plugin": "8.74.0",
+    "@typescript-eslint/parser": "8.74.0",
     "esbuild": "^0.28.2",
     "eslint": "^10.15.0",
     "eslint-config-prettier": "^10.1.8",
@@ -1554,6 +1554,7 @@
     "lint-staged": "^17.6.1",
     "lockfile-lint": "^5.1.0",
     "prettier": "^3.10.1",
+    "type-fest": "^2.12.2",
     "typescript": "^5.9.3"
   },
   "dependencies": {
