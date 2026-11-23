@@ -8,6 +8,10 @@ updates:
     commit-message:
       prefix: chore
       include: scope
+    ignore:
+      # Keep VS Code types at or below the minimum supported engine version.
+      - dependency-name: "@types/vscode"
+        versions: [">=1.124.0"]
     groups:
       npm-minor-patch:
         update-types:
