@@ -1,3 +1,11 @@
+## v6.18.2-0
+
+### Documentation
+* add instructions for updating the lockfile on Windows ([ce027cb](https://github.com/ZeroWiggliness/vscode-httpyac/commit/ce027cb70201445f06e26bab9d724934ef415858))
+
+---
+_Generated on 2026-11-23_
+
 ## Unreleased
 
 ### Maintenance
