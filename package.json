@@ -1554,7 +1554,7 @@
     "lint-staged": "^17.6.1",
     "lockfile-lint": "^5.1.0",
     "prettier": "^3.10.1",
-    "type-fest": "^2.12.2",
+    "type-fest": "^6.0.3",
     "typescript": "^5.9.3"
   },
   "dependencies": {
